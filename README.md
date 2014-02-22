@@ -3,18 +3,21 @@ gchat conversation visualizer
 
 Some flaky scripts to log and visualize your chat history via gchat.
 
-# download required python packages
+1) Enable your Gmail account to allow IMAP access. Instructions: http://email.about.com/od/accessinggmail/qt/et_gmail_imap.htm
+
+2) Install required python packages
 
 > pip install -r requirements.txt
 
-# download freetype
+3) Download freetype
 
-(OSX)
+OSX users:
 > brew install freetype 
-(Linux)
+
+Linux users:
 > apt-get install freetype
 
-Fetch chats by running the script:
+3) Fetch chats by running the script:
 
 > ./getchats.sh [your google email address]
 
